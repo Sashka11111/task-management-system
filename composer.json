@@ -1,0 +1,24 @@
+{
+  "name": "liamtseva/task-management-system",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Liamtseva\\TaskManagementSystem\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Sashka11111",
+      "email": "lamcevasaska@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require-dev": {
+    "vimeo/psalm": "^5.26",
+    "friendsofphp/php-cs-fixer": "^3.64"
+  },
+  "require": {
+    "ext-pdo": "*"
+  }
+}

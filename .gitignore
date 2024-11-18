@@ -1,0 +1,32 @@
+# Node modules (якщо використовуєте Node.js)
+node_modules/
+
+# PHP/Composer
+/vendor/
+composer.lock
+
+# Логи
+*.log
+
+# Кеші та тимчасові файли
+*.cache
+*.tmp
+
+# Тестові файли
+/test/
+
+# Вихідні файли IDE
+/.idea/
+/.vscode/
+
+# Файли конфігурацій IDE
+/.env
+/.env.local
+
+# Файли конфігурацій локального середовища
+*.sqlite
+
+# Файли, що містять паролі або інші секрети
+*.key
+*.pem
+*.env
